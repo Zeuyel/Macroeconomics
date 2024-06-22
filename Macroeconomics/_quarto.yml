@@ -1,0 +1,35 @@
+project:
+  type: book
+
+book:
+  title: "Macroeconomics"
+  author: "吴彦祖"
+  date: "6/22/2024"
+  chapters:
+    - index.qmd
+    - part: IntroMeasure.qmd
+      chapters: 
+        - intro.qmd
+        - measure.qmd
+        - measure2curcle.qmd
+    - part: OneperiodClosed.qmd
+      chapters:
+        - labor_firm.qmd
+        - equilibrium.qmd
+        - DMP.qmd
+    - part: Growth.qmd
+      chapters:
+        - malthus&slow.qmd
+    - part: summary.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreprt
+
+
+
